@@ -1,7 +1,7 @@
 
 body{
     /* Background Halaman Web */
-    background-color: #ecf0f1;
+    background-color: #746a6a;
 
 
 }
@@ -19,11 +19,14 @@ body{
 
 .sidebar {
     width: 400px;
+    /* height: 600px; */
     float: left;
 }
 .content{
-    width: 400px;
+    width: 600px;
+    /* height: 600px; */
     float: right;
+    /* background: #746a6a; */
 }
 .clear{
     clear: both;
@@ -35,14 +38,14 @@ body{
     padding: 20px;
 }
 #logo img {
-    max-width: 100%;
+    max-width: 69%;
     height: auto;
 }
 #menu{
     padding-top: 60px;
     padding-bottom: 60px;
-    float: right;
-    width: 1500px;
+    float: left;
+    width: 750px;
 }
 #menu li{
     float: left;
@@ -53,22 +56,32 @@ body{
 #menu li a{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #34495e;
-    font-size: 20px;font-weight: bold;
+    font-size: 20px;
+    font-weight: bold;
     text-decoration: none;
 }
 .blog-single{
     float: right;
     height: 400px;
     width: 720px;
-    max-width: 1000px; 
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
+    max-width: 586px; 
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
 }
 .blog-single img{
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
+    width: 95%;
+    height: 280px;
+    /* object-fit: cover; */
+}
+.recent-article {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.recent-article ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
 
 
